@@ -30,3 +30,5 @@ def star(tips, side=150):
             turtle.forward(side)
             turtlr.left(angle)
             
+        return
+    

@@ -11,3 +11,8 @@ def star(tips, side=150):
         while b !=0:
             a,b = b, a % b
         return a
+    
+    #A continuación utilizamos un condicional para saber si el número de puntas debe ser mayor que 4, porque en caso contrario no podemos dibujar la estrella
+    if tips <= 4:
+        print("El número de puntas no llega al número mínimo. Por favor introduzca un número mayor par poder continuar.")
+        return

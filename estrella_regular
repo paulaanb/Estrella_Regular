@@ -25,3 +25,8 @@ def star(tips, side=150):
             break
         #Hemos creado otro bucle para comprobar si i y el número de puntas son números coprimos
         
+        #Creamos otro para dibujar los trazos de cada punta
+        for _ in range (tips):
+            turtle.forward(side)
+            turtlr.left(angle)
+            

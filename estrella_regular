@@ -31,4 +31,4 @@ def star(tips, side=150):
             turtlr.left(angle)
             
         return
-    
+    star(20)

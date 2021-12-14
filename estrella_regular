@@ -7,4 +7,7 @@ def star(tips, side=150):
     
     #Ahora creamos una función para calcular el máximo común divisor de 2 números enteros mediante el algoritmo de euclides
     #Necesitamos esto para calcular el ángulo de rotación de la estrella
-    
+    def mcd(a,b):
+        while b !=0:
+            a,b = b, a % b
+        return a

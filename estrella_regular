@@ -1,7 +1,10 @@
 #Creamos un código resolver el reto
 
 #Creamos una función para dibujar una estrella regular de 150 puntas utilizando el módulo de Phyton Turtle
-#Para su mejor entendimiento vamos a usar los parámetros tips como un número entero con el número de puntas de la estrella y side como un número entero con el tamaño de los lados de la estrella
+
 def star(tips, side=150):
     import turtle
+    
+    #Ahora creamos una función para calcular el máximo común divisor de 2 números enteros mediante el algoritmo de euclides
+    #Necesitamos esto para calcular el ángulo de rotación de la estrella
     

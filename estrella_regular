@@ -16,3 +16,12 @@ def star(tips, side=150):
     if tips <= 4:
         print("El número de puntas no llega al número mínimo. Por favor introduzca un número mayor par poder continuar.")
         return
+    
+    #Vamos a calcular el ángulo de rotación en los vertices de la estrella en función del primer número entero coprimo con el número de puntas.
+    #Para ello utilizamos un bucle iterativo para buscar el mayor coprimo con el número de puntas.
+    for i in range(tips // 2,1,-1):
+        if mcd(tips,i) == 1:
+            angle =360.00 / tips * i
+            break
+        #Hemos creado otro bucle para comprobar si i y el número de puntas son números coprimos
+        

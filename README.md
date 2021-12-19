@@ -11,6 +11,12 @@ Estrella
 
 Para ello hay que utilizar el módulo de Python Turtle que permite realizar trazos sencillos en una ventana gráfica.
 
+El diagrama de flujo de nuestro código se muestra a continuación.
+
+<img width="764" alt="Captura de pantalla 2021-12-19 a las 19 19 47" src="https://user-images.githubusercontent.com/91721496/146686268-df423ad9-4938-4e76-853d-7cf55f89eef5.png">
+
+
+
 El código que vamos a utilizar para esta tarea es el siguiente:
 
 ```
